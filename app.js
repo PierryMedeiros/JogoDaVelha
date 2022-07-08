@@ -57,7 +57,7 @@ var jogo=[];
                     jogo[l][c]="O";
 
                 }else if(nivel==2){
-                    //Identifica Jogada e faz a defesa na horizontal
+                    //Identifica Jogada e ataca na horizontal
                     if(((jogo[0][0]=="O")&&(jogo[0][1]=="O")&&(jogo[0][2]==""))){
                         jogo[0][2]="O"//ataca na direita
                     }else if(((jogo[1][0]=="O")&&(jogo[1][1]=="O")&&(jogo[1][2]==""))){
